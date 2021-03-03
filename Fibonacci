@@ -1,0 +1,9 @@
+zahlen <- c(0,1)
+anzahl <- 15
+
+for(i in 1:anzahl) {
+  zahlen <- c(zahlen, 
+              zahlen[length(zahlen)]+zahlen[length(zahlen)-1])
+}
+
+zahlen
